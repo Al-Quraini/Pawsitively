@@ -16,6 +16,8 @@
 		2A7A6FC529DE227300660DD4 /* PawsitivelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FC429DE227300660DD4 /* PawsitivelyTests.swift */; };
 		2A7A6FCF29DE227300660DD4 /* PawsitivelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FCE29DE227300660DD4 /* PawsitivelyUITests.swift */; };
 		2A7A6FD129DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FD029DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift */; };
+		2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92ED429DE71FE0089201F /* ReusableButton.swift */; };
+		2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6795829DE52A500C427F7 /* InitialScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		2A7A6FCA29DE227300660DD4 /* PawsitivelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawsitivelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7A6FCE29DE227300660DD4 /* PawsitivelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsitivelyUITests.swift; sourceTree = "<group>"; };
 		2A7A6FD029DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsitivelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AA92ED429DE71FE0089201F /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
+		2AD6795829DE52A500C427F7 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +102,10 @@
 		2A7A6FAD29DE227000660DD4 /* Pawsitively */ = {
 			isa = PBXGroup;
 			children = (
-				2A7A6FAE29DE227000660DD4 /* PawsitivelyApp.swift */,
-				2A7A6FB029DE227000660DD4 /* ContentView.swift */,
-				2A7A6FB229DE227200660DD4 /* Assets.xcassets */,
-				2A7A6FB729DE227200660DD4 /* Persistence.swift */,
-				2A7A6FB929DE227200660DD4 /* Pawsitively.xcdatamodeld */,
-				2A7A6FB429DE227200660DD4 /* Preview Content */,
+				2AFD5E6B29DE36C9003AEE07 /* Main */,
+				2AFD5E6629DE3606003AEE07 /* UI */,
+				2AFD5E6929DE3651003AEE07 /* Resources */,
+				2AFD5E6A29DE36A2003AEE07 /* Persistence */,
 			);
 			path = Pawsitively;
 			sourceTree = "<group>";
@@ -131,6 +133,66 @@
 				2A7A6FD029DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift */,
 			);
 			path = PawsitivelyUITests;
+			sourceTree = "<group>";
+		};
+		2AFD5E6629DE3606003AEE07 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A6FB029DE227000660DD4 /* ContentView.swift */,
+				2AFD5E6829DE3619003AEE07 /* Components */,
+				2AFD5E6729DE360E003AEE07 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2AFD5E6729DE360E003AEE07 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD5E6C29DE376C003AEE07 /* Authentication */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2AFD5E6829DE3619003AEE07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2AA92ED429DE71FE0089201F /* ReusableButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2AFD5E6929DE3651003AEE07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A6FB229DE227200660DD4 /* Assets.xcassets */,
+				2A7A6FB429DE227200660DD4 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AFD5E6A29DE36A2003AEE07 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A6FB729DE227200660DD4 /* Persistence.swift */,
+				2A7A6FB929DE227200660DD4 /* Pawsitively.xcdatamodeld */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		2AFD5E6B29DE36C9003AEE07 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A7A6FAE29DE227000660DD4 /* PawsitivelyApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2AFD5E6C29DE376C003AEE07 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2AD6795829DE52A500C427F7 /* InitialScreen.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +327,10 @@
 			files = (
 				2A7A6FB829DE227200660DD4 /* Persistence.swift in Sources */,
 				2A7A6FBB29DE227200660DD4 /* Pawsitively.xcdatamodeld in Sources */,
+				2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */,
 				2A7A6FB129DE227000660DD4 /* ContentView.swift in Sources */,
 				2A7A6FAF29DE227000660DD4 /* PawsitivelyApp.swift in Sources */,
+				2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,15 +488,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pawsitively/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pawsitively/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HR75ZCV8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,15 +517,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Pawsitively/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Pawsitively/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 7HR75ZCV8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

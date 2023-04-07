@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct ImageConstant {
+    static let animals : String = "animals"
+    static let pawIconText : String = "pawIconText"
+}

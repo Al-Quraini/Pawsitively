@@ -16,6 +16,31 @@
 		2A7A6FC529DE227300660DD4 /* PawsitivelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FC429DE227300660DD4 /* PawsitivelyTests.swift */; };
 		2A7A6FCF29DE227300660DD4 /* PawsitivelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FCE29DE227300660DD4 /* PawsitivelyUITests.swift */; };
 		2A7A6FD129DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FD029DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift */; };
+		2A8E91FD29DFDD6B00BFB100 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E91FC29DFDD6B00BFB100 /* CustomShape.swift */; };
+		2A8E91FF29DFE35100BFB100 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E91FE29DFE35100BFB100 /* ColorConstant.swift */; };
+		2A8E920129DFEA5800BFB100 /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E920029DFEA5800BFB100 /* ImageConstant.swift */; };
+		2A8E920329DFEF5A00BFB100 /* SigninForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E920229DFEF5A00BFB100 /* SigninForm.swift */; };
+		2A8E920529DFEF6B00BFB100 /* SignupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E920429DFEF6B00BFB100 /* SignupForm.swift */; };
+		2A8E920729DFF17500BFB100 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E920629DFF17500BFB100 /* FloatingLabelTextField.swift */; };
+		2A8E920D29E0075000BFB100 /* FontExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E920C29E0075000BFB100 /* FontExtension+Properties.swift */; };
+		2A8E921D29E00A0600BFB100 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921029E00A0500BFB100 /* OpenSans-ExtraBoldItalic.ttf */; };
+		2A8E921E29E00A0600BFB100 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921129E00A0500BFB100 /* OFL.txt */; };
+		2A8E921F29E00A0600BFB100 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921229E00A0500BFB100 /* OpenSans-Bold.ttf */; };
+		2A8E922029E00A0600BFB100 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921329E00A0500BFB100 /* OpenSans-Light.ttf */; };
+		2A8E922129E00A0600BFB100 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921429E00A0600BFB100 /* OpenSans-SemiBold.ttf */; };
+		2A8E922229E00A0600BFB100 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921529E00A0600BFB100 /* OpenSans-LightItalic.ttf */; };
+		2A8E922329E00A0600BFB100 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921629E00A0600BFB100 /* OpenSans-ExtraBold.ttf */; };
+		2A8E922429E00A0600BFB100 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921729E00A0600BFB100 /* OpenSans-SemiBoldItalic.ttf */; };
+		2A8E922529E00A0600BFB100 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921829E00A0600BFB100 /* OpenSans-Regular.ttf */; };
+		2A8E922629E00A0600BFB100 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921929E00A0600BFB100 /* OpenSans-BoldItalic.ttf */; };
+		2A8E922729E00A0600BFB100 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921A29E00A0600BFB100 /* OpenSans-Medium.ttf */; };
+		2A8E922829E00A0600BFB100 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921B29E00A0600BFB100 /* OpenSans-Italic.ttf */; };
+		2A8E922929E00A0600BFB100 /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A8E921C29E00A0600BFB100 /* OpenSans-MediumItalic.ttf */; };
+		2A8E922B29E0141A00BFB100 /* VerifyEmailForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E922A29E0141A00BFB100 /* VerifyEmailForm.swift */; };
+		2A8E922D29E019C800BFB100 /* ResetPasswordForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E922C29E019C800BFB100 /* ResetPasswordForm.swift */; };
+		2A8E923129E01C4800BFB100 /* NameForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E923029E01C4800BFB100 /* NameForm.swift */; };
+		2A8E923329E0205E00BFB100 /* ProfilePhotoForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E923229E0205E00BFB100 /* ProfilePhotoForm.swift */; };
+		2A8E923529E0DB0700BFB100 /* LocationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E923429E0DB0700BFB100 /* LocationForm.swift */; };
 		2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92ED429DE71FE0089201F /* ReusableButton.swift */; };
 		2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6795829DE52A500C427F7 /* InitialScreen.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +75,32 @@
 		2A7A6FCA29DE227300660DD4 /* PawsitivelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawsitivelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7A6FCE29DE227300660DD4 /* PawsitivelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsitivelyUITests.swift; sourceTree = "<group>"; };
 		2A7A6FD029DE227300660DD4 /* PawsitivelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsitivelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A8E91FC29DFDD6B00BFB100 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		2A8E91FE29DFE35100BFB100 /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
+		2A8E920029DFEA5800BFB100 /* ImageConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
+		2A8E920229DFEF5A00BFB100 /* SigninForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninForm.swift; sourceTree = "<group>"; };
+		2A8E920429DFEF6B00BFB100 /* SignupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupForm.swift; sourceTree = "<group>"; };
+		2A8E920629DFF17500BFB100 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		2A8E920C29E0075000BFB100 /* FontExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontExtension+Properties.swift"; sourceTree = "<group>"; };
+		2A8E920E29E007C100BFB100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A8E921029E00A0500BFB100 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2A8E921129E00A0500BFB100 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		2A8E921229E00A0500BFB100 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		2A8E921329E00A0500BFB100 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		2A8E921429E00A0600BFB100 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		2A8E921529E00A0600BFB100 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		2A8E921629E00A0600BFB100 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2A8E921729E00A0600BFB100 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2A8E921829E00A0600BFB100 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2A8E921929E00A0600BFB100 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2A8E921A29E00A0600BFB100 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		2A8E921B29E00A0600BFB100 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		2A8E921C29E00A0600BFB100 /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2A8E922A29E0141A00BFB100 /* VerifyEmailForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailForm.swift; sourceTree = "<group>"; };
+		2A8E922C29E019C800BFB100 /* ResetPasswordForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordForm.swift; sourceTree = "<group>"; };
+		2A8E923029E01C4800BFB100 /* NameForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameForm.swift; sourceTree = "<group>"; };
+		2A8E923229E0205E00BFB100 /* ProfilePhotoForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoForm.swift; sourceTree = "<group>"; };
+		2A8E923429E0DB0700BFB100 /* LocationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationForm.swift; sourceTree = "<group>"; };
 		2AA92ED429DE71FE0089201F /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
 		2AD6795829DE52A500C427F7 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,8 +153,11 @@
 		2A7A6FAD29DE227000660DD4 /* Pawsitively */ = {
 			isa = PBXGroup;
 			children = (
+				2A8E920E29E007C100BFB100 /* Info.plist */,
 				2AFD5E6B29DE36C9003AEE07 /* Main */,
 				2AFD5E6629DE3606003AEE07 /* UI */,
+				2A8E920B29E0070500BFB100 /* Extension */,
+				2A8E91FB29DFDA2300BFB100 /* Utility */,
 				2AFD5E6929DE3651003AEE07 /* Resources */,
 				2AFD5E6A29DE36A2003AEE07 /* Persistence */,
 			);
@@ -135,6 +189,51 @@
 			path = PawsitivelyUITests;
 			sourceTree = "<group>";
 		};
+		2A8E91FB29DFDA2300BFB100 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2A8E91FE29DFE35100BFB100 /* ColorConstant.swift */,
+				2A8E920029DFEA5800BFB100 /* ImageConstant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2A8E920829E006D400BFB100 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A8E920F29E009F400BFB100 /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2A8E920B29E0070500BFB100 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2A8E920C29E0075000BFB100 /* FontExtension+Properties.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2A8E920F29E009F400BFB100 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				2A8E921129E00A0500BFB100 /* OFL.txt */,
+				2A8E921229E00A0500BFB100 /* OpenSans-Bold.ttf */,
+				2A8E921929E00A0600BFB100 /* OpenSans-BoldItalic.ttf */,
+				2A8E921629E00A0600BFB100 /* OpenSans-ExtraBold.ttf */,
+				2A8E921029E00A0500BFB100 /* OpenSans-ExtraBoldItalic.ttf */,
+				2A8E921B29E00A0600BFB100 /* OpenSans-Italic.ttf */,
+				2A8E921329E00A0500BFB100 /* OpenSans-Light.ttf */,
+				2A8E921529E00A0600BFB100 /* OpenSans-LightItalic.ttf */,
+				2A8E921A29E00A0600BFB100 /* OpenSans-Medium.ttf */,
+				2A8E921C29E00A0600BFB100 /* OpenSans-MediumItalic.ttf */,
+				2A8E921829E00A0600BFB100 /* OpenSans-Regular.ttf */,
+				2A8E921429E00A0600BFB100 /* OpenSans-SemiBold.ttf */,
+				2A8E921729E00A0600BFB100 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
 		2AFD5E6629DE3606003AEE07 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +255,9 @@
 		2AFD5E6829DE3619003AEE07 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2A8E91FC29DFDD6B00BFB100 /* CustomShape.swift */,
 				2AA92ED429DE71FE0089201F /* ReusableButton.swift */,
+				2A8E920629DFF17500BFB100 /* FloatingLabelTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -164,6 +265,7 @@
 		2AFD5E6929DE3651003AEE07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2A8E920829E006D400BFB100 /* Fonts */,
 				2A7A6FB229DE227200660DD4 /* Assets.xcassets */,
 				2A7A6FB429DE227200660DD4 /* Preview Content */,
 			);
@@ -191,6 +293,13 @@
 			isa = PBXGroup;
 			children = (
 				2AD6795829DE52A500C427F7 /* InitialScreen.swift */,
+				2A8E920229DFEF5A00BFB100 /* SigninForm.swift */,
+				2A8E920429DFEF6B00BFB100 /* SignupForm.swift */,
+				2A8E922A29E0141A00BFB100 /* VerifyEmailForm.swift */,
+				2A8E922C29E019C800BFB100 /* ResetPasswordForm.swift */,
+				2A8E923029E01C4800BFB100 /* NameForm.swift */,
+				2A8E923229E0205E00BFB100 /* ProfilePhotoForm.swift */,
+				2A8E923429E0DB0700BFB100 /* LocationForm.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -299,8 +408,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8E922029E00A0600BFB100 /* OpenSans-Light.ttf in Resources */,
+				2A8E922529E00A0600BFB100 /* OpenSans-Regular.ttf in Resources */,
 				2A7A6FB629DE227200660DD4 /* Preview Assets.xcassets in Resources */,
+				2A8E922329E00A0600BFB100 /* OpenSans-ExtraBold.ttf in Resources */,
+				2A8E922929E00A0600BFB100 /* OpenSans-MediumItalic.ttf in Resources */,
+				2A8E922129E00A0600BFB100 /* OpenSans-SemiBold.ttf in Resources */,
+				2A8E922729E00A0600BFB100 /* OpenSans-Medium.ttf in Resources */,
+				2A8E922429E00A0600BFB100 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				2A8E922629E00A0600BFB100 /* OpenSans-BoldItalic.ttf in Resources */,
+				2A8E921D29E00A0600BFB100 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				2A8E921E29E00A0600BFB100 /* OFL.txt in Resources */,
+				2A8E921F29E00A0600BFB100 /* OpenSans-Bold.ttf in Resources */,
+				2A8E922229E00A0600BFB100 /* OpenSans-LightItalic.ttf in Resources */,
 				2A7A6FB329DE227200660DD4 /* Assets.xcassets in Resources */,
+				2A8E922829E00A0600BFB100 /* OpenSans-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,11 +448,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7A6FB829DE227200660DD4 /* Persistence.swift in Sources */,
+				2A8E922B29E0141A00BFB100 /* VerifyEmailForm.swift in Sources */,
+				2A8E920329DFEF5A00BFB100 /* SigninForm.swift in Sources */,
 				2A7A6FBB29DE227200660DD4 /* Pawsitively.xcdatamodeld in Sources */,
+				2A8E920D29E0075000BFB100 /* FontExtension+Properties.swift in Sources */,
 				2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */,
+				2A8E920729DFF17500BFB100 /* FloatingLabelTextField.swift in Sources */,
 				2A7A6FB129DE227000660DD4 /* ContentView.swift in Sources */,
+				2A8E922D29E019C800BFB100 /* ResetPasswordForm.swift in Sources */,
+				2A8E920129DFEA5800BFB100 /* ImageConstant.swift in Sources */,
+				2A8E91FD29DFDD6B00BFB100 /* CustomShape.swift in Sources */,
+				2A8E920529DFEF6B00BFB100 /* SignupForm.swift in Sources */,
+				2A8E923529E0DB0700BFB100 /* LocationForm.swift in Sources */,
+				2A8E923329E0205E00BFB100 /* ProfilePhotoForm.swift in Sources */,
 				2A7A6FAF29DE227000660DD4 /* PawsitivelyApp.swift in Sources */,
 				2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */,
+				2A8E923129E01C4800BFB100 /* NameForm.swift in Sources */,
+				2A8E91FF29DFE35100BFB100 /* ColorConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,17 +626,19 @@
 				DEVELOPMENT_TEAM = 7HR75ZCV8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pawsitively/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alquraini.pawsitively.Pawsitively;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquraini.pawsitively;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -521,17 +657,19 @@
 				DEVELOPMENT_TEAM = 7HR75ZCV8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pawsitively/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alquraini.pawsitively.Pawsitively;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alquraini.pawsitively;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5D64EF29E137A600ED190F /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64EE29E137A600ED190F /* HomeTab.swift */; };
+		2A5D64F129E13C9600ED190F /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F029E13C9600ED190F /* SmallButton.swift */; };
+		2A5D64F329E150BE00ED190F /* UIScreenExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F229E150BE00ED190F /* UIScreenExtension+Properties.swift */; };
+		2A5D64F529E1511600ED190F /* OffsetableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F429E1511600ED190F /* OffsetableScrollView.swift */; };
+		2A5D64F729E1514C00ED190F /* ProxyReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F629E1514C00ED190F /* ProxyReader.swift */; };
+		2A5D64F929E1574A00ED190F /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F829E1574A00ED190F /* FeedItemView.swift */; };
+		2A5D64FB29E1657300ED190F /* ReminderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64FA29E1657300ED190F /* ReminderItem.swift */; };
+		2A5D64FD29E1677200ED190F /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64FC29E1677200ED190F /* CreatePostView.swift */; };
 		2A7A6FAF29DE227000660DD4 /* PawsitivelyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FAE29DE227000660DD4 /* PawsitivelyApp.swift */; };
 		2A7A6FB129DE227000660DD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A6FB029DE227000660DD4 /* ContentView.swift */; };
 		2A7A6FB329DE227200660DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7A6FB229DE227200660DD4 /* Assets.xcassets */; };
@@ -63,6 +71,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5D64EE29E137A600ED190F /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		2A5D64F029E13C9600ED190F /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
+		2A5D64F229E150BE00ED190F /* UIScreenExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreenExtension+Properties.swift"; sourceTree = "<group>"; };
+		2A5D64F429E1511600ED190F /* OffsetableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetableScrollView.swift; sourceTree = "<group>"; };
+		2A5D64F629E1514C00ED190F /* ProxyReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyReader.swift; sourceTree = "<group>"; };
+		2A5D64F829E1574A00ED190F /* FeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemView.swift; sourceTree = "<group>"; };
+		2A5D64FA29E1657300ED190F /* ReminderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderItem.swift; sourceTree = "<group>"; };
+		2A5D64FC29E1677200ED190F /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
 		2A7A6FAB29DE227000660DD4 /* Pawsitively.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawsitively.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7A6FAE29DE227000660DD4 /* PawsitivelyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsitivelyApp.swift; sourceTree = "<group>"; };
 		2A7A6FB029DE227000660DD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,7 +98,7 @@
 		2A8E920429DFEF6B00BFB100 /* SignupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupForm.swift; sourceTree = "<group>"; };
 		2A8E920629DFF17500BFB100 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 		2A8E920C29E0075000BFB100 /* FontExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontExtension+Properties.swift"; sourceTree = "<group>"; };
-		2A8E920E29E007C100BFB100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A8E920E29E007C100BFB100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A8E921029E00A0500BFB100 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		2A8E921129E00A0500BFB100 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		2A8E921229E00A0500BFB100 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -130,6 +146,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5D64ED29E1379500ED190F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A5D64EE29E137A600ED190F /* HomeTab.swift */,
+				2A5D64F829E1574A00ED190F /* FeedItemView.swift */,
+				2A5D64FA29E1657300ED190F /* ReminderItem.swift */,
+				2A5D64FC29E1677200ED190F /* CreatePostView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		2A7A6FA229DE227000660DD4 = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +180,6 @@
 		2A7A6FAD29DE227000660DD4 /* Pawsitively */ = {
 			isa = PBXGroup;
 			children = (
-				2A8E920E29E007C100BFB100 /* Info.plist */,
 				2AFD5E6B29DE36C9003AEE07 /* Main */,
 				2AFD5E6629DE3606003AEE07 /* UI */,
 				2A8E920B29E0070500BFB100 /* Extension */,
@@ -210,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				2A8E920C29E0075000BFB100 /* FontExtension+Properties.swift */,
+				2A5D64F229E150BE00ED190F /* UIScreenExtension+Properties.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -247,6 +274,7 @@
 		2AFD5E6729DE360E003AEE07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2A5D64ED29E1379500ED190F /* Home */,
 				2AFD5E6C29DE376C003AEE07 /* Authentication */,
 			);
 			path = Screens;
@@ -258,6 +286,9 @@
 				2A8E91FC29DFDD6B00BFB100 /* CustomShape.swift */,
 				2AA92ED429DE71FE0089201F /* ReusableButton.swift */,
 				2A8E920629DFF17500BFB100 /* FloatingLabelTextField.swift */,
+				2A5D64F029E13C9600ED190F /* SmallButton.swift */,
+				2A5D64F429E1511600ED190F /* OffsetableScrollView.swift */,
+				2A5D64F629E1514C00ED190F /* ProxyReader.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -265,6 +296,7 @@
 		2AFD5E6929DE3651003AEE07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2A8E920E29E007C100BFB100 /* Info.plist */,
 				2A8E920829E006D400BFB100 /* Fonts */,
 				2A7A6FB229DE227200660DD4 /* Assets.xcassets */,
 				2A7A6FB429DE227200660DD4 /* Preview Content */,
@@ -448,19 +480,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7A6FB829DE227200660DD4 /* Persistence.swift in Sources */,
+				2A5D64F129E13C9600ED190F /* SmallButton.swift in Sources */,
+				2A5D64FD29E1677200ED190F /* CreatePostView.swift in Sources */,
 				2A8E922B29E0141A00BFB100 /* VerifyEmailForm.swift in Sources */,
 				2A8E920329DFEF5A00BFB100 /* SigninForm.swift in Sources */,
 				2A7A6FBB29DE227200660DD4 /* Pawsitively.xcdatamodeld in Sources */,
 				2A8E920D29E0075000BFB100 /* FontExtension+Properties.swift in Sources */,
 				2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */,
 				2A8E920729DFF17500BFB100 /* FloatingLabelTextField.swift in Sources */,
+				2A5D64F529E1511600ED190F /* OffsetableScrollView.swift in Sources */,
 				2A7A6FB129DE227000660DD4 /* ContentView.swift in Sources */,
 				2A8E922D29E019C800BFB100 /* ResetPasswordForm.swift in Sources */,
+				2A5D64EF29E137A600ED190F /* HomeTab.swift in Sources */,
 				2A8E920129DFEA5800BFB100 /* ImageConstant.swift in Sources */,
+				2A5D64F729E1514C00ED190F /* ProxyReader.swift in Sources */,
+				2A5D64F329E150BE00ED190F /* UIScreenExtension+Properties.swift in Sources */,
 				2A8E91FD29DFDD6B00BFB100 /* CustomShape.swift in Sources */,
 				2A8E920529DFEF6B00BFB100 /* SignupForm.swift in Sources */,
 				2A8E923529E0DB0700BFB100 /* LocationForm.swift in Sources */,
 				2A8E923329E0205E00BFB100 /* ProfilePhotoForm.swift in Sources */,
+				2A5D64F929E1574A00ED190F /* FeedItemView.swift in Sources */,
+				2A5D64FB29E1657300ED190F /* ReminderItem.swift in Sources */,
 				2A7A6FAF29DE227000660DD4 /* PawsitivelyApp.swift in Sources */,
 				2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */,
 				2A8E923129E01C4800BFB100 /* NameForm.swift in Sources */,
@@ -626,7 +666,7 @@
 				DEVELOPMENT_TEAM = 7HR75ZCV8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Pawsitively/Info.plist;
+				INFOPLIST_FILE = Pawsitively/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -657,7 +697,7 @@
 				DEVELOPMENT_TEAM = 7HR75ZCV8P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Pawsitively/Info.plist;
+				INFOPLIST_FILE = Pawsitively/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A57F1F329E2843D00BAB360 /* ColorExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F229E2843D00BAB360 /* ColorExtension+Properties.swift */; };
+		2A57F1F529E2858200BAB360 /* ShapeExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F429E2858200BAB360 /* ShapeExtension+Properties.swift */; };
+		2A57F1F729E28CE200BAB360 /* SelectableReminderFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F629E28CE200BAB360 /* SelectableReminderFilterButton.swift */; };
+		2A57F1F929E295B400BAB360 /* ReminderItemAndTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F829E295B400BAB360 /* ReminderItemAndTime.swift */; };
+		2A57F1FB29E2995C00BAB360 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1FA29E2995C00BAB360 /* AddReminderView.swift */; };
+		2A57F1FD29E2A9FF00BAB360 /* DropDownField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1FC29E2A9FF00BAB360 /* DropDownField.swift */; };
 		2A5D64EF29E137A600ED190F /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64EE29E137A600ED190F /* HomeTab.swift */; };
 		2A5D64F129E13C9600ED190F /* SmallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F029E13C9600ED190F /* SmallButton.swift */; };
 		2A5D64F329E150BE00ED190F /* UIScreenExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5D64F229E150BE00ED190F /* UIScreenExtension+Properties.swift */; };
@@ -49,7 +55,11 @@
 		2A8E923129E01C4800BFB100 /* NameForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E923029E01C4800BFB100 /* NameForm.swift */; };
 		2A8E923329E0205E00BFB100 /* ProfilePhotoForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E923229E0205E00BFB100 /* ProfilePhotoForm.swift */; };
 		2A8E923529E0DB0700BFB100 /* LocationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8E923429E0DB0700BFB100 /* LocationForm.swift */; };
+		2AA869BE29E2BF5000A189B5 /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA869BD29E2BF5000A189B5 /* PListManager.swift */; };
+		2AA869C029E2BFE800A189B5 /* BundleExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA869BF29E2BFE800A189B5 /* BundleExtension+Properties.swift */; };
+		2AA869C429E2C1AA00A189B5 /* ListValues.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AA869C329E2C1AA00A189B5 /* ListValues.plist */; };
 		2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92ED429DE71FE0089201F /* ReusableButton.swift */; };
+		2ACC737929E212D100B926C3 /* RemindersTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC737829E212D100B926C3 /* RemindersTab.swift */; };
 		2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6795829DE52A500C427F7 /* InitialScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +81,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A57F1F229E2843D00BAB360 /* ColorExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorExtension+Properties.swift"; sourceTree = "<group>"; };
+		2A57F1F429E2858200BAB360 /* ShapeExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeExtension+Properties.swift"; sourceTree = "<group>"; };
+		2A57F1F629E28CE200BAB360 /* SelectableReminderFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableReminderFilterButton.swift; sourceTree = "<group>"; };
+		2A57F1F829E295B400BAB360 /* ReminderItemAndTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderItemAndTime.swift; sourceTree = "<group>"; };
+		2A57F1FA29E2995C00BAB360 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		2A57F1FC29E2A9FF00BAB360 /* DropDownField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownField.swift; sourceTree = "<group>"; };
 		2A5D64EE29E137A600ED190F /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
 		2A5D64F029E13C9600ED190F /* SmallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallButton.swift; sourceTree = "<group>"; };
 		2A5D64F229E150BE00ED190F /* UIScreenExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreenExtension+Properties.swift"; sourceTree = "<group>"; };
@@ -117,7 +133,11 @@
 		2A8E923029E01C4800BFB100 /* NameForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameForm.swift; sourceTree = "<group>"; };
 		2A8E923229E0205E00BFB100 /* ProfilePhotoForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoForm.swift; sourceTree = "<group>"; };
 		2A8E923429E0DB0700BFB100 /* LocationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationForm.swift; sourceTree = "<group>"; };
+		2AA869BD29E2BF5000A189B5 /* PListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
+		2AA869BF29E2BFE800A189B5 /* BundleExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BundleExtension+Properties.swift"; sourceTree = "<group>"; };
+		2AA869C329E2C1AA00A189B5 /* ListValues.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ListValues.plist; sourceTree = "<group>"; };
 		2AA92ED429DE71FE0089201F /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
+		2ACC737829E212D100B926C3 /* RemindersTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTab.swift; sourceTree = "<group>"; };
 		2AD6795829DE52A500C427F7 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +204,7 @@
 				2AFD5E6629DE3606003AEE07 /* UI */,
 				2A8E920B29E0070500BFB100 /* Extension */,
 				2A8E91FB29DFDA2300BFB100 /* Utility */,
+				2AA869BC29E2BF2F00A189B5 /* Manager */,
 				2AFD5E6929DE3651003AEE07 /* Resources */,
 				2AFD5E6A29DE36A2003AEE07 /* Persistence */,
 			);
@@ -237,6 +258,9 @@
 			children = (
 				2A8E920C29E0075000BFB100 /* FontExtension+Properties.swift */,
 				2A5D64F229E150BE00ED190F /* UIScreenExtension+Properties.swift */,
+				2A57F1F229E2843D00BAB360 /* ColorExtension+Properties.swift */,
+				2A57F1F429E2858200BAB360 /* ShapeExtension+Properties.swift */,
+				2AA869BF29E2BFE800A189B5 /* BundleExtension+Properties.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -261,6 +285,24 @@
 			path = OpenSans;
 			sourceTree = "<group>";
 		};
+		2AA869BC29E2BF2F00A189B5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2AA869BD29E2BF5000A189B5 /* PListManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2ACC737729E212C000B926C3 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				2ACC737829E212D100B926C3 /* RemindersTab.swift */,
+				2A57F1F829E295B400BAB360 /* ReminderItemAndTime.swift */,
+				2A57F1FA29E2995C00BAB360 /* AddReminderView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
 		2AFD5E6629DE3606003AEE07 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +316,7 @@
 		2AFD5E6729DE360E003AEE07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2ACC737729E212C000B926C3 /* Reminders */,
 				2A5D64ED29E1379500ED190F /* Home */,
 				2AFD5E6C29DE376C003AEE07 /* Authentication */,
 			);
@@ -283,12 +326,14 @@
 		2AFD5E6829DE3619003AEE07 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2A57F1FC29E2A9FF00BAB360 /* DropDownField.swift */,
 				2A8E91FC29DFDD6B00BFB100 /* CustomShape.swift */,
 				2AA92ED429DE71FE0089201F /* ReusableButton.swift */,
 				2A8E920629DFF17500BFB100 /* FloatingLabelTextField.swift */,
 				2A5D64F029E13C9600ED190F /* SmallButton.swift */,
 				2A5D64F429E1511600ED190F /* OffsetableScrollView.swift */,
 				2A5D64F629E1514C00ED190F /* ProxyReader.swift */,
+				2A57F1F629E28CE200BAB360 /* SelectableReminderFilterButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -300,6 +345,7 @@
 				2A8E920829E006D400BFB100 /* Fonts */,
 				2A7A6FB229DE227200660DD4 /* Assets.xcassets */,
 				2A7A6FB429DE227200660DD4 /* Preview Content */,
+				2AA869C329E2C1AA00A189B5 /* ListValues.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -451,6 +497,7 @@
 				2A8E922629E00A0600BFB100 /* OpenSans-BoldItalic.ttf in Resources */,
 				2A8E921D29E00A0600BFB100 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				2A8E921E29E00A0600BFB100 /* OFL.txt in Resources */,
+				2AA869C429E2C1AA00A189B5 /* ListValues.plist in Resources */,
 				2A8E921F29E00A0600BFB100 /* OpenSans-Bold.ttf in Resources */,
 				2A8E922229E00A0600BFB100 /* OpenSans-LightItalic.ttf in Resources */,
 				2A7A6FB329DE227200660DD4 /* Assets.xcassets in Resources */,
@@ -481,15 +528,22 @@
 			files = (
 				2A7A6FB829DE227200660DD4 /* Persistence.swift in Sources */,
 				2A5D64F129E13C9600ED190F /* SmallButton.swift in Sources */,
+				2A57F1F329E2843D00BAB360 /* ColorExtension+Properties.swift in Sources */,
 				2A5D64FD29E1677200ED190F /* CreatePostView.swift in Sources */,
 				2A8E922B29E0141A00BFB100 /* VerifyEmailForm.swift in Sources */,
+				2A57F1F529E2858200BAB360 /* ShapeExtension+Properties.swift in Sources */,
+				2ACC737929E212D100B926C3 /* RemindersTab.swift in Sources */,
 				2A8E920329DFEF5A00BFB100 /* SigninForm.swift in Sources */,
 				2A7A6FBB29DE227200660DD4 /* Pawsitively.xcdatamodeld in Sources */,
 				2A8E920D29E0075000BFB100 /* FontExtension+Properties.swift in Sources */,
+				2AA869BE29E2BF5000A189B5 /* PListManager.swift in Sources */,
+				2A57F1FB29E2995C00BAB360 /* AddReminderView.swift in Sources */,
 				2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */,
 				2A8E920729DFF17500BFB100 /* FloatingLabelTextField.swift in Sources */,
 				2A5D64F529E1511600ED190F /* OffsetableScrollView.swift in Sources */,
+				2A57F1FD29E2A9FF00BAB360 /* DropDownField.swift in Sources */,
 				2A7A6FB129DE227000660DD4 /* ContentView.swift in Sources */,
+				2AA869C029E2BFE800A189B5 /* BundleExtension+Properties.swift in Sources */,
 				2A8E922D29E019C800BFB100 /* ResetPasswordForm.swift in Sources */,
 				2A5D64EF29E137A600ED190F /* HomeTab.swift in Sources */,
 				2A8E920129DFEA5800BFB100 /* ImageConstant.swift in Sources */,
@@ -498,7 +552,9 @@
 				2A8E91FD29DFDD6B00BFB100 /* CustomShape.swift in Sources */,
 				2A8E920529DFEF6B00BFB100 /* SignupForm.swift in Sources */,
 				2A8E923529E0DB0700BFB100 /* LocationForm.swift in Sources */,
+				2A57F1F929E295B400BAB360 /* ReminderItemAndTime.swift in Sources */,
 				2A8E923329E0205E00BFB100 /* ProfilePhotoForm.swift in Sources */,
+				2A57F1F729E28CE200BAB360 /* SelectableReminderFilterButton.swift in Sources */,
 				2A5D64F929E1574A00ED190F /* FeedItemView.swift in Sources */,
 				2A5D64FB29E1657300ED190F /* ReminderItem.swift in Sources */,
 				2A7A6FAF29DE227000660DD4 /* PawsitivelyApp.swift in Sources */,

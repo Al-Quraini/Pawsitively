@@ -12,4 +12,5 @@ enum ColorConstant {
     static let primary : Color = Color("primary")
     static let secondary : Color = Color("secondary")
     static let system : Color = Color("system")
+    static let headerBackground : Color = Color("header-background")
 }

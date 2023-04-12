@@ -64,6 +64,15 @@
 		2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA92ED429DE71FE0089201F /* ReusableButton.swift */; };
 		2ACC737929E212D100B926C3 /* RemindersTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC737829E212D100B926C3 /* RemindersTab.swift */; };
 		2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD6795829DE52A500C427F7 /* InitialScreen.swift */; };
+		2AF2FF2329E6781100D72F22 /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2229E6781100D72F22 /* SettingsTab.swift */; };
+		2AF2FF2529E67EB900D72F22 /* ViewExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2429E67EB900D72F22 /* ViewExtension+Properties.swift */; };
+		2AF2FF2729E680FE00D72F22 /* MyPetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2629E680FE00D72F22 /* MyPetsPage.swift */; };
+		2AF2FF2929E6916500D72F22 /* AddPetProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2829E6916500D72F22 /* AddPetProfilePage.swift */; };
+		2AF2FF2B29E6AFA100D72F22 /* SettingProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2A29E6AFA100D72F22 /* SettingProfilePage.swift */; };
+		2AF2FF2D29E6AFC100D72F22 /* GenderRadioButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2C29E6AFC100D72F22 /* GenderRadioButtons.swift */; };
+		2AF2FF2F29E6B50300D72F22 /* UINavigationControllerExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF2E29E6B50300D72F22 /* UINavigationControllerExtension+Properties.swift */; };
+		2AF2FF3329E6E1EA00D72F22 /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF3229E6E1EA00D72F22 /* BottomCard.swift */; };
+		2AF2FF3529E6F26300D72F22 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2FF3429E6F26300D72F22 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +154,15 @@
 		2AA92ED429DE71FE0089201F /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
 		2ACC737829E212D100B926C3 /* RemindersTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTab.swift; sourceTree = "<group>"; };
 		2AD6795829DE52A500C427F7 /* InitialScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreen.swift; sourceTree = "<group>"; };
+		2AF2FF2229E6781100D72F22 /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
+		2AF2FF2429E67EB900D72F22 /* ViewExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewExtension+Properties.swift"; sourceTree = "<group>"; };
+		2AF2FF2629E680FE00D72F22 /* MyPetsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetsPage.swift; sourceTree = "<group>"; };
+		2AF2FF2829E6916500D72F22 /* AddPetProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetProfilePage.swift; sourceTree = "<group>"; };
+		2AF2FF2A29E6AFA100D72F22 /* SettingProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingProfilePage.swift; sourceTree = "<group>"; };
+		2AF2FF2C29E6AFC100D72F22 /* GenderRadioButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderRadioButtons.swift; sourceTree = "<group>"; };
+		2AF2FF2E29E6B50300D72F22 /* UINavigationControllerExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationControllerExtension+Properties.swift"; sourceTree = "<group>"; };
+		2AF2FF3229E6E1EA00D72F22 /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
+		2AF2FF3429E6F26300D72F22 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +275,7 @@
 				2A8E91FE29DFE35100BFB100 /* ColorConstant.swift */,
 				2A8E920029DFEA5800BFB100 /* ImageConstant.swift */,
 				2A575C3B29E51A0C008CB854 /* SafeArea.swift */,
+				2AF2FF3429E6F26300D72F22 /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -277,6 +296,8 @@
 				2A57F1F229E2843D00BAB360 /* ColorExtension+Properties.swift */,
 				2A57F1F429E2858200BAB360 /* ShapeExtension+Properties.swift */,
 				2AA869BF29E2BFE800A189B5 /* BundleExtension+Properties.swift */,
+				2AF2FF2429E67EB900D72F22 /* ViewExtension+Properties.swift */,
+				2AF2FF2E29E6B50300D72F22 /* UINavigationControllerExtension+Properties.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -319,6 +340,18 @@
 			path = Reminders;
 			sourceTree = "<group>";
 		};
+		2AF2FF2129E677FE00D72F22 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2AF2FF2229E6781100D72F22 /* SettingsTab.swift */,
+				2AF2FF2629E680FE00D72F22 /* MyPetsPage.swift */,
+				2AF2FF2829E6916500D72F22 /* AddPetProfilePage.swift */,
+				2AF2FF2A29E6AFA100D72F22 /* SettingProfilePage.swift */,
+				2AF2FF2C29E6AFC100D72F22 /* GenderRadioButtons.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		2AFD5E6629DE3606003AEE07 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +365,7 @@
 		2AFD5E6729DE360E003AEE07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2AF2FF2129E677FE00D72F22 /* Setting */,
 				2A575C3629E505D3008CB854 /* Guide */,
 				2ACC737729E212C000B926C3 /* Reminders */,
 				2A5D64ED29E1379500ED190F /* Home */,
@@ -351,6 +385,7 @@
 				2A5D64F429E1511600ED190F /* OffsetableScrollView.swift */,
 				2A5D64F629E1514C00ED190F /* ProxyReader.swift */,
 				2A57F1F629E28CE200BAB360 /* SelectableReminderFilterButton.swift */,
+				2AF2FF3229E6E1EA00D72F22 /* BottomCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -545,6 +580,8 @@
 			files = (
 				2A7A6FB829DE227200660DD4 /* Persistence.swift in Sources */,
 				2A575C3C29E51A0C008CB854 /* SafeArea.swift in Sources */,
+				2AF2FF3529E6F26300D72F22 /* Constant.swift in Sources */,
+				2AF2FF3329E6E1EA00D72F22 /* BottomCard.swift in Sources */,
 				2A5D64F129E13C9600ED190F /* SmallButton.swift in Sources */,
 				2A57F1F329E2843D00BAB360 /* ColorExtension+Properties.swift in Sources */,
 				2A5D64FD29E1677200ED190F /* CreatePostView.swift in Sources */,
@@ -557,7 +594,9 @@
 				2AA869BE29E2BF5000A189B5 /* PListManager.swift in Sources */,
 				2A57F1FB29E2995C00BAB360 /* AddReminderView.swift in Sources */,
 				2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */,
+				2AF2FF2D29E6AFC100D72F22 /* GenderRadioButtons.swift in Sources */,
 				2A8E920729DFF17500BFB100 /* FloatingLabelTextField.swift in Sources */,
+				2AF2FF2B29E6AFA100D72F22 /* SettingProfilePage.swift in Sources */,
 				2A575C3829E50601008CB854 /* GuideTab.swift in Sources */,
 				2A5D64F529E1511600ED190F /* OffsetableScrollView.swift in Sources */,
 				2A57F1FD29E2A9FF00BAB360 /* DropDownField.swift in Sources */,
@@ -566,12 +605,15 @@
 				2A8E922D29E019C800BFB100 /* ResetPasswordForm.swift in Sources */,
 				2A5D64EF29E137A600ED190F /* HomeTab.swift in Sources */,
 				2A575C3A29E50BB0008CB854 /* GuideDetail.swift in Sources */,
+				2AF2FF2729E680FE00D72F22 /* MyPetsPage.swift in Sources */,
 				2A8E920129DFEA5800BFB100 /* ImageConstant.swift in Sources */,
 				2A5D64F729E1514C00ED190F /* ProxyReader.swift in Sources */,
+				2AF2FF2529E67EB900D72F22 /* ViewExtension+Properties.swift in Sources */,
 				2A5D64F329E150BE00ED190F /* UIScreenExtension+Properties.swift in Sources */,
 				2A8E91FD29DFDD6B00BFB100 /* CustomShape.swift in Sources */,
 				2A8E920529DFEF6B00BFB100 /* SignupForm.swift in Sources */,
 				2A8E923529E0DB0700BFB100 /* LocationForm.swift in Sources */,
+				2AF2FF2F29E6B50300D72F22 /* UINavigationControllerExtension+Properties.swift in Sources */,
 				2A57F1F929E295B400BAB360 /* ReminderItemAndTime.swift in Sources */,
 				2A8E923329E0205E00BFB100 /* ProfilePhotoForm.swift in Sources */,
 				2A57F1F729E28CE200BAB360 /* SelectableReminderFilterButton.swift in Sources */,
@@ -579,8 +621,10 @@
 				2A5D64FB29E1657300ED190F /* ReminderItem.swift in Sources */,
 				2A7A6FAF29DE227000660DD4 /* PawsitivelyApp.swift in Sources */,
 				2AD6795929DE52A500C427F7 /* InitialScreen.swift in Sources */,
+				2AF2FF2329E6781100D72F22 /* SettingsTab.swift in Sources */,
 				2A8E923129E01C4800BFB100 /* NameForm.swift in Sources */,
 				2A8E91FF29DFE35100BFB100 /* ColorConstant.swift in Sources */,
+				2AF2FF2929E6916500D72F22 /* AddPetProfilePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

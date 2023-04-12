@@ -40,6 +40,7 @@ struct VerifyEmailForm: View {
             ReusableButton(title: "Confirm", color: ColorConstant.primary, textColor: .white, icon: nil) {
                 
             }
+            .padding(.horizontal)
             
             VStack(spacing: 0) {
                 Text("Did not receive the email? Check your spam")

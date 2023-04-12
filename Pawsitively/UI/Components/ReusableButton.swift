@@ -36,7 +36,6 @@ struct ReusableButton: View {
         .background(color)
         .cornerRadius(10)
         .shadow(radius: 5)
-        .padding(.horizontal, 25)
     }
 }
 

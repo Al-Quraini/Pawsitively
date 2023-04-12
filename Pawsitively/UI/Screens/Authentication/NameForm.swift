@@ -54,6 +54,7 @@ struct NameForm: View {
                 
             }
             .padding(.bottom, 45)
+            .padding(.horizontal)
         }
     }
 }

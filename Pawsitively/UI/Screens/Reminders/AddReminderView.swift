@@ -12,6 +12,8 @@ struct AddReminderView: View {
     @State private var detailsText : String = ""
     @State private var currentTime : Date = Date()
     @State private var openSheet : Bool = false
+    @State private var showBottomCard : Bool = false
+    @State private var cardDismissal : Bool = false
     @State private var sheetObject : AddViewSheetType? = nil
     var body: some View {
         ZStack(alignment: .top) {
@@ -93,9 +95,17 @@ struct AddReminderView: View {
                         
                         HStack {
                             DropDownField(title: "Select frequency", items: ["Daily", "Weekly"])
-                            DropDownField(title: "Select week days", items: ["low", "medium", "high"]){
-                                sheetObject = .days
+                            
+                            Button {
+                                withAnimation {
+                                    self.showBottomCard.toggle()
+                                    self.cardDismissal.toggle()
+                                }
+                            } label: {
+                                Text("Select days")
+                                    .font(.openSans(size: 14))
                             }
+
                         }
                         .padding(.horizontal)
                     }
@@ -120,7 +130,7 @@ struct AddReminderView: View {
                 Spacer().frame(height: 40)
                 ReusableButton(title: "Add +", color: ColorConstant.primary, textColor: .white, icon: nil) {
                     openSheet.toggle()
-                }
+                }.padding(.horizontal)
             }
             
             
@@ -150,6 +160,20 @@ struct AddReminderView: View {
                         .shadow(radius: 10, y: 3)
                 }.background(ColorConstant.system)
             }
+            
+            GeometryReader { proxy in
+                BottomCard(isPresented: $showBottomCard, height: proxy.size.height / 2) {
+                    WeekDaysSelectorView(onSubmit: { days in
+                        withAnimation {
+                            self.showBottomCard = false
+                        }
+                    }, onDismiss: {
+                        withAnimation {
+                            self.showBottomCard = false
+                        }
+                    })
+                }
+            }
         }
     }
 }
@@ -168,4 +192,80 @@ enum AddViewSheetType : String, Identifiable {
         return self.rawValue
     }
     
+}
+
+fileprivate struct WeekDaysSelectorView: View {
+    @State private var selectedDays : [WeekDay : Bool] = [:]
+    @State private var allSelected : Bool = false
+    let onSubmit : (_ weekDays :[String]) -> ()
+    let onDismiss : () -> ()
+    var body: some View {
+        VStack {
+            let weekdays = WeekDay.allCases
+            
+            HStack{
+                Text("EveryDay")
+                    .font(.openSans(size: 14))
+                Image(systemName: allSelected ? "checkmark.square.fill" : "square")
+                    .foregroundColor(ColorConstant.primary)
+                Spacer()
+            }
+            .contentShape(Rectangle())
+            .padding()
+            .onTapGesture {
+                withAnimation(.easeInOut(duration: 0.15))  {
+                    allSelected.toggle()
+                    for day in weekdays {
+                        selectedDays[day] = allSelected
+                    }
+                }
+            }
+            List(weekdays, id: \.self) { day in
+                HStack{
+                    Text(day.rawValue)
+                        .font(.openSans(size: 14))
+                    Spacer()
+                    Image(systemName: (selectedDays[day] ?? false) ? "checkmark.square.fill" : "square")
+                        .foregroundColor(ColorConstant.primary)
+                }.contentShape(Rectangle())
+                    .onTapGesture {
+                        withAnimation(.easeInOut(duration: 0.15)) {
+                        selectedDays[day] = !(selectedDays[day] ?? false)
+                        allSelected = selectedDays.values.filter{$0}.count == 7
+                    }
+                }
+            }.listStyle(.inset)
+            HStack {
+                Button {
+                    let days = selectedDays.keys.filter{selectedDays[$0] ?? false}
+                    onSubmit(days.map{$0.rawValue})
+                } label: {
+                    Text("Confirm")
+                        .font(.openSans(size: 14, weight: .semiBold))
+                        .foregroundColor(.white)
+                        .contentShape(Rectangle())
+                }
+                .frame(width: 120, height: 35)
+                .background(ColorConstant.primary)
+                .cornerRadius(20)
+                .shadow(radius: 3)
+                .padding()
+                
+                Button {
+                    onDismiss()
+                } label: {
+                    Text("Cancel")
+                        .font(.openSans(size: 14, weight: .semiBold))
+                        .foregroundColor(.black)
+                        .contentShape(Rectangle())
+                }
+                .frame(width: 120, height: 35)
+                .background(ColorConstant.system)
+                .cornerRadius(20)
+                .shadow(radius: 3)
+                .padding()
+            }
+            
+        }.padding(.top, 10)
+    }
 }

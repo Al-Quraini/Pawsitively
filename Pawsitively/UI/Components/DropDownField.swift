@@ -10,7 +10,6 @@ import SwiftUI
 struct DropDownField: View {
     @State private var selection : String
     let items : [String]
-    var action : (() -> ())?
     
     init(title: String, items : [String], action : (() -> ())? = nil) {
         self._selection = State(initialValue: title)
@@ -18,13 +17,6 @@ struct DropDownField: View {
     }
     
     var body: some View {
-        if let action = self.action {
-            Button {
-                action()
-            } label: {
-                drowDownView
-            }
-        } else {
             Menu {
                 ForEach(items, id: \.self) { item in
                     Button {
@@ -37,7 +29,6 @@ struct DropDownField: View {
             } label: {
                 drowDownView
             }
-        }
     }
     
     private var drowDownView : some View {
@@ -62,6 +53,6 @@ struct DropDownField: View {
 
 struct DropDownField_Previews: PreviewProvider {
     static var previews: some View {
-        DropDownField(title: "title", items: ["string"])
+        DropDownField(title: "title", items: ["string"]) {}
     }
 }

@@ -45,6 +45,7 @@ struct ResetPasswordForm: View {
                 
             }
             .padding(.bottom, 45)
+            .padding(.horizontal)
         }
     }
 }

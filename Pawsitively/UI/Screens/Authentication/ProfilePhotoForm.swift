@@ -77,12 +77,14 @@ struct ProfilePhotoForm: View {
             ReusableButton(title: "Upload from library", color: ColorConstant.primary, textColor: .white, icon: "image-line") {
                 
             }
+            .padding(.horizontal)
             
             ReusableButton(title: "Take a photo", color: .white, textColor: .black, icon: "camera-line") {
                 
             }
             .padding(.top, 10)
             .padding(.bottom, 45)
+            .padding(.horizontal)
         }
     }
 }

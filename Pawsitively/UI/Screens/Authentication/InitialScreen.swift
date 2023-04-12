@@ -38,12 +38,14 @@ struct InitialScreen: View {
                 ReusableButton(title: "Sign in", color: ColorConstant.secondary, textColor: .white, icon: nil) {
 
                 }
+                .padding(.horizontal)
                 
                 Spacer().frame(maxHeight: 20)
                 
                 ReusableButton(title: "Sign up", color: ColorConstant.system, textColor: .black, icon: nil) {
                     
                 }
+                .padding(.horizontal)
                 
             }
         }

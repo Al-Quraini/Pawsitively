@@ -51,6 +51,7 @@ struct LocationForm: View {
             }
             .padding(.top, 10)
             .padding(.bottom, 45)
+            .padding(.horizontal)
         }
     }
 }

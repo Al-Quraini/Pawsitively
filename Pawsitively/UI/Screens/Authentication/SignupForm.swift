@@ -45,6 +45,7 @@ struct SignupForm: View {
             ReusableButton(title: "Sign up", color: ColorConstant.primary, textColor: .white, icon: nil) {
                 
             }
+            .padding(.horizontal)
             Spacer().frame(maxHeight: 35)
 
             

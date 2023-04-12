@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A575C3829E50601008CB854 /* GuideTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A575C3729E50601008CB854 /* GuideTab.swift */; };
+		2A575C3A29E50BB0008CB854 /* GuideDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A575C3929E50BB0008CB854 /* GuideDetail.swift */; };
+		2A575C3C29E51A0C008CB854 /* SafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A575C3B29E51A0C008CB854 /* SafeArea.swift */; };
 		2A57F1F329E2843D00BAB360 /* ColorExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F229E2843D00BAB360 /* ColorExtension+Properties.swift */; };
 		2A57F1F529E2858200BAB360 /* ShapeExtension+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F429E2858200BAB360 /* ShapeExtension+Properties.swift */; };
 		2A57F1F729E28CE200BAB360 /* SelectableReminderFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A57F1F629E28CE200BAB360 /* SelectableReminderFilterButton.swift */; };
@@ -81,6 +84,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A575C3729E50601008CB854 /* GuideTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTab.swift; sourceTree = "<group>"; };
+		2A575C3929E50BB0008CB854 /* GuideDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideDetail.swift; sourceTree = "<group>"; };
+		2A575C3B29E51A0C008CB854 /* SafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArea.swift; sourceTree = "<group>"; };
 		2A57F1F229E2843D00BAB360 /* ColorExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorExtension+Properties.swift"; sourceTree = "<group>"; };
 		2A57F1F429E2858200BAB360 /* ShapeExtension+Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeExtension+Properties.swift"; sourceTree = "<group>"; };
 		2A57F1F629E28CE200BAB360 /* SelectableReminderFilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableReminderFilterButton.swift; sourceTree = "<group>"; };
@@ -166,6 +172,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A575C3629E505D3008CB854 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				2A575C3729E50601008CB854 /* GuideTab.swift */,
+				2A575C3929E50BB0008CB854 /* GuideDetail.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
 		2A5D64ED29E1379500ED190F /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +256,7 @@
 			children = (
 				2A8E91FE29DFE35100BFB100 /* ColorConstant.swift */,
 				2A8E920029DFEA5800BFB100 /* ImageConstant.swift */,
+				2A575C3B29E51A0C008CB854 /* SafeArea.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -316,6 +332,7 @@
 		2AFD5E6729DE360E003AEE07 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2A575C3629E505D3008CB854 /* Guide */,
 				2ACC737729E212C000B926C3 /* Reminders */,
 				2A5D64ED29E1379500ED190F /* Home */,
 				2AFD5E6C29DE376C003AEE07 /* Authentication */,
@@ -527,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7A6FB829DE227200660DD4 /* Persistence.swift in Sources */,
+				2A575C3C29E51A0C008CB854 /* SafeArea.swift in Sources */,
 				2A5D64F129E13C9600ED190F /* SmallButton.swift in Sources */,
 				2A57F1F329E2843D00BAB360 /* ColorExtension+Properties.swift in Sources */,
 				2A5D64FD29E1677200ED190F /* CreatePostView.swift in Sources */,
@@ -540,12 +558,14 @@
 				2A57F1FB29E2995C00BAB360 /* AddReminderView.swift in Sources */,
 				2AA92ED529DE71FE0089201F /* ReusableButton.swift in Sources */,
 				2A8E920729DFF17500BFB100 /* FloatingLabelTextField.swift in Sources */,
+				2A575C3829E50601008CB854 /* GuideTab.swift in Sources */,
 				2A5D64F529E1511600ED190F /* OffsetableScrollView.swift in Sources */,
 				2A57F1FD29E2A9FF00BAB360 /* DropDownField.swift in Sources */,
 				2A7A6FB129DE227000660DD4 /* ContentView.swift in Sources */,
 				2AA869C029E2BFE800A189B5 /* BundleExtension+Properties.swift in Sources */,
 				2A8E922D29E019C800BFB100 /* ResetPasswordForm.swift in Sources */,
 				2A5D64EF29E137A600ED190F /* HomeTab.swift in Sources */,
+				2A575C3A29E50BB0008CB854 /* GuideDetail.swift in Sources */,
 				2A8E920129DFEA5800BFB100 /* ImageConstant.swift in Sources */,
 				2A5D64F729E1514C00ED190F /* ProxyReader.swift in Sources */,
 				2A5D64F329E150BE00ED190F /* UIScreenExtension+Properties.swift in Sources */,
